@@ -1,0 +1,20 @@
+{
+    "version": "0.0.1",
+    "name": "minio-wrapper",
+    "author": "Woody Huang",
+    "repository": "git@github.com:huangy10/minio-wrapper.git",
+    "license": "MIT",
+    "description": "A simple wrapper for minio",
+    "scripts": {
+        "start": "node app.js"
+    },
+    "dependencies": {
+        "js-yaml": "^3.12.0",
+        "koa": "^2.6.2",
+        "koa-logger": "^3.2.0",
+        "koa-router": "^7.4.0",
+        "minio": "^7.0.1",
+        "redis": "^2.8.0",
+        "url-parse": "^1.4.4"
+    }
+}
